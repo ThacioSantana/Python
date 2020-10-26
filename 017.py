@@ -14,5 +14,5 @@ elif quantidade_comprada >= 21 or quantidade_comprada < 50:
 else:
     if quantidade_comprada > 50:
         total_pago * (25/100)
-     print('Pagará o preço com 25% de desconto')
+        print('Pagará o preço com 25% de desconto')
 print('Obrigado pela compra e volte sempre!!!!!!')
