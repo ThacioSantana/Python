@@ -1,6 +1,6 @@
 import pygame
 
-pygame.init()
+pygame.mixer.init()
 pygame.mixer_music.load('ex1.mp3')
 pygame.mixer_music.play()
-pygame.event.wait()
+Parar = input('Digite algo para parar')
