@@ -12,5 +12,7 @@ elif s1 == 2:
     print('Voce escolheu a subtração e o resultado é: ',n1-n2)
 elif s1 == 3:
     print('Voce escolheu a multiplicação e o resultado é: ',n1*n2)
-else:
+elif s1 == 4:
     print('Voce escolheu a divisão e o resultado é:',n1/n2)
+else:
+    print('ERROR 404')
